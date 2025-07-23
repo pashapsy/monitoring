@@ -1,0 +1,321 @@
+body.dark-mode {
+    background-color: #121212;
+}
+
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode label {
+    color: #ffffff;
+}
+
+.dark-mode h4 {
+    color: #f0f0f0; 
+}
+
+html.dark-mode .gauge,
+html.dark-mode .well {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 10px;
+}
+
+.dark-mode .well {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(249, 249, 249, 0.6);
+}
+
+.dark-mode .well h4 {
+    color: #fff;
+}
+
+.dark-mode #suhu-label,
+.dark-mode #asap-label {
+    color: #ddd;
+}
+
+html.dark-mode .gauge text {
+    fill: white !important;
+}
+
+.dark-mode .container {
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+.dark-mode .button {
+    background-color: #444;
+    color: #fff;
+}
+
+.dark-mode .button:hover {
+    background-color: #666;
+}
+
+/* Mode gelap untuk tombol .btn-cari dengan warna hitam */
+body.dark-mode .btn-cari {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #555; 
+}
+
+body.dark-mode .btn-cari:hover {
+    background-color: #111;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.1);
+}
+
+
+/* data rekap */
+.dark-mode table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto; 
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: #1e1e1e;
+    font-size: 16px;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #e0e0e0;
+}
+
+/* Header */
+.dark-mode thead {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.dark-mode th {
+    padding: 12px 16px;
+    text-align: center;
+    border: 1px solid #555; 
+    font-weight: bold;
+}
+
+/* Dark mode styling for chart canvas */
+body.dark-mode .chart-container canvas {
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: -2px 2px 20px rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+}
+
+
+/* Isi Tabel */
+.dark-mode td {
+    padding: 12px 16px;
+    background-color: #1e1e1e;
+    color: #ccc;
+    border: 1px solid #555;
+}
+
+/* Hover */
+.dark-mode tbody tr:hover td {
+    background-color: #2c2c2c;
+}
+
+/* Baris genap */
+.dark-mode tbody tr:nth-child(even) td {
+    background-color: #222;
+}
+
+/* Pojok tumpul */
+.dark-mode thead tr th:first-child {
+    border-top-left-radius: 10px;
+}
+.dark-mode thead tr th:last-child {
+    border-top-right-radius: 10px;
+}
+.dark-mode tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+.dark-mode tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+/* Highlight baris penting (DARK MODE) */
+.dark-mode .highlight {
+    background-color: #f23f2b !important; 
+    color: #ffffff;
+}
+
+/* Link hapus (DARK MODE) */
+.dark-mode .hapus-link {
+    color: #d63031;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Link hapus di dalam baris highlight (DARK MODE) */
+.dark-mode .highlight .hapus-link {
+    color: #ffffff;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+/* filter */
+.dark-mode input,
+.dark-mode select {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #777;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+body.dark-mode .search-info {
+    background-color: #363636; 
+    border-left: 4px solid #66ccff; 
+    color: #e0f7fa;
+}
+.dark-mode .search-info p {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .dark-mode th, .dark-mode td {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+
+    .dark-mode input,
+    .dark-mode select {
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+}
+
+.dark-mode .pagination {
+    color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+
+/* login */
+.dark-mode .account-container {
+    color: white;
+}
+
+.dark-mode .dropdown a {
+    color: #ccc;
+}
+
+.dark-mode .dropdown a:hover {
+    background-color: #444;
+}
+
+.dark-mode #status-box {
+    background-color: #222;
+    color: #ccc;
+    border: 1px solid #444;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.dark-mode .highlight {
+    background-color: #5a1e1e !important;
+    color: #fff;
+}
+
+.dark-mode .lokasi-select {
+    background-color: #2a2a2a;
+    border: 1px solid #555;
+}
+
+.dark-mode .lokasi-select option {
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.dark-mode .lokasi-filter-container {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .status-container {
+    background: #2c2c2c;
+    color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(39, 6, 6, 0.952);
+}
+
+body.dark-mode .instrument-card {
+    background: #2b2b2b;
+    border-color: #959494;
+    color: #f0f0f0;
+    box-shadow:  0px 0px 8px 3px  #fff(255, 255, 255, 0.05);
+}
+
+body.dark-mode .status-info {
+    background-color: #2d2d2d;
+    color: #f0f0f0;
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+}
+
+body.dark-mode .pagination-link {
+    background-color: #444;
+    color: #ffffff;
+    border: none; 
+}
+
+body.dark-mode .pagination-link:hover {
+    background-color: #555555; 
+    color: #ffffff;
+}
+
+body.dark-mode .pagination-info {
+    color: #f1f1f1;
+}
+
+/* Default dark mode input styles */
+body.dark-mode .filter-group select,
+body.dark-mode .filter-group input[type="text"],
+body.dark-mode .filter-group input[type="search"] {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+    box-shadow: none;
+}
+
+body.dark-mode .filter-group select:focus,
+body.dark-mode .filter-group input[type="text"]:focus,
+body.dark-mode .filter-group input[type="search"]:focus {
+    border-color: #777777;
+    box-shadow: 0 0 0 2px rgba(180, 180, 180, 0.3);
+    outline: none;
+}
+body.dark-mode .filter-group input[type="search"] {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+body.dark-mode .filter-group input[type="search"] {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+body.dark-mode .filter-group input[type="search"].highlight-text {
+    background-color: #2a2a2a; 
+    color: #00ffff; 
+    border: 1px solid #444;
+    box-shadow: none;
+
+}
